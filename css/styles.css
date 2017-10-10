@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background-color: #404040;
+  margin-top: 0px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-image: url("../img/cork-board.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: 1200px;
+  padding-top: 100px;
+}
+
+.main {
+  width: 420px;
+  margin: auto;
+  position: relative;
+}
+
+.cat{
+  position: absolute;
+  top: 90px;
+  left: 85px;
+}
+
+.frame {
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+}
+
+.pin {
+  width: 60px;
+  position: absolute;
+  top: 40px;
+  right: 90px;
+}
