@@ -7,17 +7,13 @@
 }
 
 body {
-  background-color: #404040;
   margin-top: 0px;
+  background-image: url("../img/cork-board.jpg");
 }
 
 .container {
   width: 1000px;
   margin: 0 auto;
-  background-image: url("../img/cork-board.jpg");
-  background-repeat: no-repeat;
-  height: 800px;
-  background-size: 1200px;
   padding-top: 100px;
 }
 
